@@ -1,53 +1,28 @@
-@font-face {
-  font-family: 'Nanum';
-  src: url("../font/NanumGothic.eot");
-  src: url("../font/NanumGothic.eot?#iefix") format("embedded-opentype"), 
-url("../font/NanumGothic.woff") format("woff"), 
-url("../font/NanumGothic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; 
-}
+@charset "utf-8";
 
-@font-face {
-  font-family: 'NotoMidium';
-  src: url("../font/NotoSans-Medium.eot");
-  src: url("../font/NotoSans-Medium.eot?#iefix") format("embedded-opentype"), 
-url("../font/NotoSans-Medium.woff") format("woff"), 
-url("../font/NotoSans-Medium.woff2") format("woff2"),
-url("../font/NotoSans-Medium.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal; 
-}
+@font-face {font-family: 'notoKrthin';font-style: normal;font-weight: 100;src: url(../font/NotoSansKR-Thin.woff2) format('woff2'),url(../font/NotoSansKR-Thin.woff) format('woff'),url(../font/NotoSansKR-Thin.otf) format('opentype');}
 
-@font-face {
-  font-family: 'NanumBold';
-  src: url("file:///E|/project/ams/WEB/font/NanumGothicBold.eot");
-  src: url("file:///E|/project/ams/WEB/font/NanumGothicBold.eot?#iefix") format("embedded-opentype"), 
-url("file:///E|/project/ams/WEB/font/NanumGothicBold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; 
-}
 
-@font-face {
- font-family: 'NanumBarunGothic';
- font-style: normal;
- font-weight: 400;
- src: local('Nanum Barun Gothic Regular'), local('Nanum Barun Gothic-Regular'), local('NanumBarunGothic Regular');
- src: url("file:///E|/project/ams/WEB/font/NanumBarunGothic.eot");
- src: url("file:///E|/project/ams/WEB/font/NanumBarunGothic.eot?#iefix") format('embedded-opentype'),
-url("file:///E|/project/ams/WEB/font/NanumBarunGothic.woff") format('woff'),
-url("file:///E|/project/ams/WEB/font/NanumBarunGothic.ttf") format('truetype');
-}
 
-@font-face {
-font-family: 'Glyphicons Halflings';
-src: url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.eot');
-src: url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.woff2') format('woff2'),
-url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.woff') format('woff'),
-url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.ttf') format('truetype'),
-url('file:///E|/project/ams/WEB/font/glyphicons-halflings-regular.svg#@{icon-font-svg-id}') format('svg');
-}
+@font-face {font-family: 'notoKrthinlight';font-style: normal;font-weight: 300;src: url(../font/NotoSansKR-Light.woff2) format('woff2'),url(../font/NotoSansKR-Light.woff) format('woff'),url(../font/NotoSansKR-Light.otf) format('opentype');}
+
+
+
+@font-face {font-family: 'notoKrregular';font-style: normal;font-weight: 400;src: url(../font/NotoSansKR-Regular.woff2) format('woff2'),url(../font/NotoSansKR-Regular.woff) format('woff'),url(../font/NotoSansKR-Regular.otf) format('opentype');}
+
+
+
+@font-face {font-family: 'notoKrmedium';font-style: normal;font-weight: 500;src: url(../font/NotoSansKR-Medium.woff2) format('woff2'),url(../font/NotoSansKR-Medium.woff) format('woff'),url(../font/NotoSansKR-Medium.otf) format('opentype');}
+
+
+
+@font-face {font-family: 'notoKrbold';font-style: normal;font-weight: 700;src: url(../font/NotoSansKR-Bold.woff2) format('woff2'),url(../font/NotoSansKR-Bold.woff) format('woff'),url(../font/NotoSansKR-Bold.otf) format('opentype');}
+
+
+
+@font-face {font-family: 'notoKrblack';font-style: normal;font-weight: 900;src: url(../font/NotoSansKR-Black.woff2) format('woff2'),url(../font/NotoSansKR-Black.woff) format('woff'),url(../font/NotoSansKR-Black.otf) format('opentype');}
+
+
 
 /*
 @font-face{
@@ -108,13 +83,7 @@ html, body {
   padding: 0; }
 
 body {
-  font: normal 100%/1.5 "Nanum"; 
-	/*  <---주석문
-		font-weight : normal
-		font-size:100% =16px == 포토샵에서의 16pt
-		line-height:1.5
-		font-family:"Nanum"
-	*/
+  font: normal 100%/1.2 "notoKrregular"; letter-spacing: -0.05em
 	}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, select, label, img, figure {
   margin: 0;
