@@ -101,7 +101,7 @@ nav .navlist > li > a {
 /*.page.view01 .inner .grid:last-child {flex:none; width:850px; display: flex;}*/
 .page.view01 .inner .grid .renew_img {
 	flex:1; width:926px; height:710px; 
-	position:absolute; top:173px; right:205px}
+	position:absolute; top:173px; right:120px}
 .page.view01 .inner .grid .renew_img img {}
 
 
@@ -152,7 +152,7 @@ nav .navlist > li > a {
 }
 .page.view02 .inner .grid .renew_img {
 	flex:1; width:926px; height:710px; 
-	position:absolute; top:173px; right:205px}
+	position:absolute; top:173px; right:120px}
 
 
 /*
